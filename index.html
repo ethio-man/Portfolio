@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dagmawi Antehun | Full-Stack Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Jacob Aiden, a Frontend Developer specializing in React, Node.js, and modern web design."
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container nav-content">
+        <a href="#" class="logo">Dagmawi.</a>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Hi, I'm Dagmawi Antehun</h1>
+          <h2><span class="highlight">Full-Stack Developer</span></h2>
+          <p>
+            I build performant web applications with scalable backends and
+            thoughtfully designed frontend architectures.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Hire Me</a>
+            <a href="#about" class="btn btn-outline">Let's Talk</a>
+          </div>
+          <div class="social-icons">
+            <a href="https://github.com/ethio-man" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/dagmawi-antehun-48144534a/"
+              target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="https://t.me/@BePaladin" target="_blank"
+              ><i class="fab fa-telegram"></i
+            ></a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="img-wrapper">
+            <!-- Image path updated based on user request -->
+            <img src="assets/project-images/profile.jpg" alt="Jacob Aiden" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container about-content">
+        <div class="section-title">
+          <h2>About Me</h2>
+          <span class="subtitle">Get to know me</span>
+        </div>
+        <div class="about-text">
+          <p>
+            Self-taught Full-Stack Developer with a strong backend focus,
+            acquired via extensive documentation analysis and practical
+            experimentation. knowledgeable about using Node.js, Express, React,
+            and SQL/NoSQL databases to create scalable web applications.
+            enthusiastic about solving issues and creating practical systems.
+            Open to positions with a backend focus.
+          </p>
+          <a href="assets/resume.pdf" class="btn btn-primary" download
+            >Download CV</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container skills-content">
+        <div class="section-title">
+          <h2>My Skills</h2>
+          <span class="subtitle">What I bring to the table</span>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Frontend</h3>
+            <ul>
+              <li><i class="fab fa-html5"></i> HTML5</li>
+              <li><i class="fab fa-css3-alt"></i> CSS3</li>
+              <li><i class="fab fa-js"></i> JavaScript (ES6+)</li>
+              <li><i class="fab fa-react"></i> React</li>
+              <li><i class="fas fa-wind"></i> Tailwind</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Backend</h3>
+            <ul>
+              <li><i class="fab fa-node-js"></i> Node.js</li>
+              <li><i class="fas fa-server"></i> Express</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Database</h3>
+            <ul>
+              <li><i class="fas fa-database"></i> PostgreSQL</li>
+              <li><i class="fas fa-leaf"></i> MongoDB</li>
+              <li><i class="fas fa-database"></i> Redis</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Tools & DevOps</h3>
+            <ul>
+              <li><i class="fab fa-git-alt"></i> Git</li>
+              <li><i class="fab fa-docker"></i> Docker</li>
+              <li><i class="fab fa-google"></i> Google Cloud</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container projects-content">
+        <div class="section-title">
+          <h2>Featured Projects</h2>
+          <span class="subtitle">Recent work</span>
+        </div>
+        <div class="projects-grid">
+          <!-- Project 1: Warka-E-Commerce -->
+          <div class="project-card">
+            <div class="project-img">
+              <img
+                src="assets/project-images/ecommerce.png"
+                alt="Warka-E-Commerce"
+              />
+            </div>
+            <div class="project-info">
+              <h3>Warka-E-Commerce</h3>
+              <p>
+                A scalable e-commerce platform that enables secure online
+                shopping, streamlined order processing, and effective product
+                management.
+              </p>
+              <div class="tech-stack">
+                <span>React</span>
+                <span>Express</span>
+                <span>Node.js</span>
+              </div>
+              <a
+                href="https://github.com/ethio-man/E-Commerce"
+                target="_blank"
+                class="btn-link"
+                >Source Code <i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Project 2: Hanos -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="assets/project-images/vidly.png" alt="Hanos" />
+            </div>
+            <div class="project-info">
+              <h3>Hanos</h3>
+              <p>
+                Movie Rental Application. Hanos simplifies movie rentals by
+                bringing customers, movies, and returns into one secure,
+                easy-to-use platform.
+              </p>
+              <div class="tech-stack">
+                <span>Node</span>
+                <span>MongoDB</span>
+                <span>Express</span>
+              </div>
+              <a
+                href="https://github.com/ethio-man/Vidly"
+                target="_blank"
+                class="btn-link"
+                >Source Code <i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Project 3: MarketAI -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="assets/project-images/market.png" alt="MarketAI" />
+            </div>
+            <div class="project-info">
+              <h3>MarketAI</h3>
+              <p>
+                AI-powered marketing assistant enabling Ethiopian entrepreneurs
+                to generate multilingual content and analyze data.
+              </p>
+              <div class="tech-stack">
+                <span>Node</span>
+                <span>Express</span>
+                <span>BigQuery</span>
+                <span>Dialogflow</span>
+              </div>
+              <a
+                href="https://github.com/ethio-man/MarketAi"
+                target="_blank"
+                class="btn-link"
+                >Source Code <i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container contact-content">
+        <div class="section-title">
+          <h2>Contact Me</h2>
+          <span class="subtitle">Let's work together</span>
+        </div>
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <textarea
+              id="message"
+              rows="5"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
