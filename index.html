@@ -88,12 +88,12 @@
         </div>
         <div class="about-text">
           <p>
-            Self-taught Full-Stack Developer with a strong backend focus,
-            acquired via extensive documentation analysis and practical
-            experimentation. knowledgeable about using Node.js, Express, React,
-            and SQL/NoSQL databases to create scalable web applications.
-            enthusiastic about solving issues and creating practical systems.
-            Open to positions with a backend focus.
+            A Full-Stack Developer with a strong backend focus, acquired via
+            extensive documentation analysis and practical experimentation.
+            knowledgeable about using Node.js, Express, React, and SQL/NoSQL
+            databases to create scalable web applications. enthusiastic about
+            solving issues and creating practical systems. Open to positions
+            with a backend focus.
           </p>
           <a href="assets/resume.pdf" class="btn btn-primary" download
             >Download CV</a
@@ -188,7 +188,11 @@
           <!-- Project 2: Hanos -->
           <div class="project-card">
             <div class="project-img">
-              <img src="assets/project-images/vidly.png" alt="Hanos" loading="lazy" />
+              <img
+                src="assets/project-images/vidly.png"
+                alt="Hanos"
+                loading="lazy"
+              />
             </div>
             <div class="project-info">
               <h3>Hanos</h3>
@@ -214,7 +218,11 @@
           <!-- Project 3: MarketAI -->
           <div class="project-card">
             <div class="project-img">
-              <img src="assets/project-images/market.png" alt="MarketAI" loading="lazy" />
+              <img
+                src="assets/project-images/market.png"
+                alt="MarketAI"
+                loading="lazy"
+              />
             </div>
             <div class="project-info">
               <h3>MarketAI</h3>
@@ -247,16 +255,28 @@
           <h2>Contact Me</h2>
           <span class="subtitle">Let's work together</span>
         </div>
-        <form id="contact-form" class="contact-form">
+        <form
+          id="contact-form"
+          class="contact-form"
+          action="https://formspree.io/f/xaqnyejd"
+          method="POST"
+        >
           <div class="form-group">
             <input type="text" id="name" placeholder="Your Name" required />
           </div>
           <div class="form-group">
-            <input type="email" id="email" placeholder="Your Email" required />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
           </div>
           <div class="form-group">
             <textarea
               id="message"
+              name="message"
               rows="5"
               placeholder="Your Message"
               required
@@ -266,6 +286,5 @@
         </form>
       </div>
     </section>
-
   </body>
 </html>
