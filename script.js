@@ -59,24 +59,4 @@ document.addEventListener("DOMContentLoaded", () => {
       isScrolling = true;
     }
   });
-
-  // Contact Form Mailto Handler
-  /*
-    const contactForm = document.getElementById('contact-form');
-    if (contactForm) {
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
-            
-            // Construct the mailto link
-            const subject = `Portfolio Contact from ${name}`;
-            const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0AMessage:%0D%0A${message}`;
-            
-            window.location.href = `mailto:natymiskir@gmail.com?subject=${subject}&body=${body}`;
-        });
-    }
-    */
 });
